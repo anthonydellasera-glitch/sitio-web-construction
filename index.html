@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AP Servicios | Construcción, Mantenimiento y Soluciones Industriales en Panamá</title>
+  <meta name="description" content="AP Servicios es un proveedor integral de construcción, adecuación, mantenimiento, logística y suministro para instalaciones industriales, comerciales y corporativas en Panamá.">
+  <!-- Vista previa al compartir el enlace (WhatsApp, Facebook, LinkedIn) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_PA">
+  <meta property="og:site_name" content="AP Servicios">
+  <meta property="og:title" content="AP Servicios | Construcción, Mantenimiento y Soluciones Industriales en Panamá">
+  <meta property="og:description" content="Construcción, adecuación, mantenimiento, logística y suministro para instalaciones industriales, comerciales y corporativas en Panamá.">
+  <meta property="og:image" content="/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- La primera foto del hero es lo mas grande de la pantalla inicial -->
+  <link rel="preload" as="image" href="/img/hero-1.jpg" fetchpriority="high">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <meta name="theme-color" content="#73101d">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/styles/main.css">
+</head>
+<body>
+
+
+  <!-- ========== HEADER ========== -->
+  <header class="header" id="header">
+    <div class="container">
+      <a href="#inicio" class="logo" aria-label="AP Servicios - Inicio">
+        <img src="/logo-blanco.png" alt="AP Servicios" class="logo-img" width="1486" height="464">
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-label="Abrir menú">
+        <svg class="ic ic-abrir" viewBox="0 0 448 512" aria-hidden="true"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+        <svg class="ic ic-cerrar" viewBox="0 0 384 512" aria-hidden="true"><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
+      </button>
+
+      <nav class="nav" id="nav">
+        <a href="#inicio">Inicio</a>
+        <a href="#nosotros">Quiénes Somos</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#sectores">Sectores</a>
+        <a href="#proceso">Proceso</a>
+        <a href="#contacto">Contacto</a>
+        <div class="nav-cta">
+          <a href="#contacto" class="btn btn-primary">Cotizar</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="inicio">
+
+    <!-- Fondo: fotos a color que se acercan lentamente y se relevan.
+         La primera lleva la imagen en linea para que se vea aun sin JS;
+         las demas las carga el script despues del load. -->
+    <div class="hero-slides" id="heroSlides" aria-hidden="true">
+      <div class="hero-slide is-active is-zooming" data-img="/img/hero-1.jpg" style="--img: url('/img/hero-1.jpg')"></div>
+      <div class="hero-slide" data-img="/img/hero-2.jpg"></div>
+      <div class="hero-slide" data-img="/img/hero-3.jpg"></div>
+      <div class="hero-slide" data-img="/img/hero-4.jpg"></div>
+    </div>
+    <div class="hero-scrim" aria-hidden="true"></div>
+
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <svg class="ic" viewBox="0 0 576 512" aria-hidden="true"><path d="M256 32c-17.7 0-32 14.3-32 32v2.3 99.6c0 5.6-4.5 10.1-10.1 10.1c-3.6 0-7-1.9-8.8-5.1L157.1 87C83 123.5 32 199.8 32 288v64H544l0-66.4c-.9-87.2-51.7-162.4-125.1-198.6l-48 83.9c-1.8 3.2-5.2 5.1-8.8 5.1c-5.6 0-10.1-4.5-10.1-10.1V66.3 64c0-17.7-14.3-32-32-32H256zM16.6 384C7.4 384 0 391.4 0 400.6c0 4.7 2 9.2 5.8 11.9C27.5 428.4 111.8 480 288 480s260.5-51.6 282.2-67.5c3.8-2.8 5.8-7.2 5.8-11.9c0-9.2-7.4-16.6-16.6-16.6H16.6z"/></svg>
+          Proveedor Integral de Infraestructura
+        </div>
+        <h1>Construimos, Adecuamos y <span class="highlight">Mantenemos</span> tus Instalaciones</h1>
+        <p>AP Servicios es tu aliado estratégico en construcción, remodelación, mantenimiento, logística y suministro para instalaciones industriales, comerciales y corporativas en Panamá.</p>
+        <div class="hero-actions">
+          <a href="#contacto" class="btn btn-primary"><svg class="ic" viewBox="0 0 512 512" aria-hidden="true"><path d="M498.1 5.6c10.1 7 15.4 19.1 13.5 31.2l-64 416c-1.5 9.7-7.4 18.2-16 23s-18.9 5.4-28 1.6L284 427.7l-68.5 74.1c-8.9 9.7-22.9 12.9-35.2 8.1S160 493.2 160 480V396.4c0-4 1.5-7.8 4.2-10.7L331.8 202.8c5.8-6.3 5.6-16-.4-22s-15.7-6.4-22-.7L106 360.8 17.7 316.6C7.1 311.3 .3 300.7 0 288.9s5.9-22.8 16.1-28.7l448-256c10.7-6.1 23.9-5.5 34 1.4z"/></svg> Solicitar Cotización</a>
+          <a href="#servicios" class="btn btn-outline"><svg class="ic" viewBox="0 0 512 512" aria-hidden="true"><path d="M448 96V224H288V96H448zm0 192V416H288V288H448zM224 224H64V96H224V224zM64 288H224V416H64V288zM64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z"/></svg> Ver Servicios</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat"><div class="number">+15</div><div class="label">Años de Experiencia</div></div>
+          <div class="hero-stat"><div class="number">+200</div><div class="label">Proyectos Ejecutados</div></div>
+          <div class="hero-stat"><div class="number">100%</div><div class="label">Compromiso y Calidad</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TRUST BAR ========== -->
+  <div class="trust-bar">
+    <div class="container">
+      <div class="trust-item"><svg class="ic" viewBox="0 0 512 512" aria-hidden="true"><path d="M256 0c4.6 0 9.2 1 13.4 2.9L457.7 82.8c22 9.3 38.4 31 38.3 57.2c-.5 99.2-41.3 280.7-213.6 363.2c-16.7 8-36.1 8-52.8 0C57.3 420.7 16.5 239.2 16 140c-.1-26.2 16.3-47.9 38.3-57.2L242.7 2.9C246.8 1 251.4 0 256 0zm0 66.8V444.8C394 378 431.1 230.1 432 141.4L256 66.8l0 0z"/></svg><span>Seguridad y Cumplimiento</span></div>
+      <div class="trust-item"><svg class="ic" viewBox="0 0 512 512" aria-hidden="true"><path d="M256 0a256 256 0 1 1 0 512A256 256 0 1 1 256 0zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/></svg><span>Respuesta Rápida</span></div>
+      <div class="trust-item"><svg class="ic" viewBox="0 0 640 512" aria-hidden="true"><path d="M48 0C21.5 0 0 21.5 0 48V368c0 26.5 21.5 48 48 48H64c0 53 43 96 96 96s96-43 96-96H384c0 53 43 96 96 96s96-43 96-96h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V288 256 237.3c0-17-6.7-33.3-18.7-45.3L512 114.7c-12-12-28.3-18.7-45.3-18.7H416V48c0-26.5-21.5-48-48-48H48zM416 160h50.7L544 237.3V256H416V160zM112 416a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm368-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg><span>Logística Propia</span></div>
+      <div class="trust-item"><svg class="ic" viewBox="0 0 640 512" aria-hidden="true"><path d="M323.4 85.2l-96.8 78.4c-16.1 13-19.2 36.4-7 53.1c12.9 17.8 38 21.3 55.3 7.8l99.3-77.2c7-5.4 17-4.2 22.5 2.8s4.2 17-2.8 22.5l-20.9 16.2L512 316.8V128h-.7l-3.9-2.5L434.8 79c-15.3-9.8-33.2-15-51.4-15c-21.8 0-43 7.5-60 21.2zm22.8 124.4l-51.7 40.2C263 274.4 217.3 268 193.7 235.6c-22.2-30.5-16.6-73.1 12.7-96.8l83.2-67.3c-11.6-4.9-24.1-7.4-36.8-7.4C234 64 215.7 69.6 200 80l-72 48V352h28.2l91.4 83.4c19.6 17.9 49.9 16.5 67.8-3.1c5.5-6.1 9.2-13.2 11.1-20.6l17 15.6c19.5 17.9 49.9 16.6 67.8-2.9c4.5-4.9 7.8-10.6 9.9-16.5c19.4 13 45.8 10.3 62.1-7.5c17.9-19.5 16.6-49.9-2.9-67.8l-134.2-123zM16 128c-8.8 0-16 7.2-16 16V352c0 17.7 14.3 32 32 32H64c17.7 0 32-14.3 32-32V128H16zM48 320a16 16 0 1 1 0 32 16 16 0 1 1 0-32zM544 128V352c0 17.7 14.3 32 32 32h32c17.7 0 32-14.3 32-32V144c0-8.8-7.2-16-16-16H544zm32 208a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z"/></svg><span>Un Solo Proveedor</span></div>
+    </div>
+  </div>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="section" id="nosotros">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image reveal">
+          <img src="/img/nosotros.jpg" alt="Acabado de cielo raso de gypsum en obra" width="900" height="1200" loading="lazy">
+          <div class="overlay"><p>Soluciones integrales para tu operación</p></div>
+        </div>
+        <div class="about-content reveal reveal-delay-1">
+          <span class="section-label">Quiénes Somos</span>
+          <h2>Un Aliado Integral para tus Instalaciones</h2>
+          <p>AP Servicios es una empresa panameña dedicada a la construcción, adecuación, remodelación y mantenimiento de instalaciones industriales, comerciales y corporativas.</p>
+          <p>Brindamos soluciones integrales para empresas que requieren conservar, mejorar o transformar sus espacios de trabajo. Ejecutamos proyectos de infraestructura, instalación de techos y sistemas de gypsum, renovación de cubiertas, aplicación de pisos epóxicos, trabajos de plomería, mantenimiento general, logística, fletes y suministro de materiales y equipos industriales.</p>
+          <p>Nuestro modelo de trabajo combina coordinación, capacidad de respuesta y ejecución orientada a las necesidades de cada cliente.</p>
+          <div class="about-features">
+            <div class="about-feature"><svg class="ic" viewBox="0 0 512 512" aria-hidden="true"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg><span>Proyectos llave en mano</span></div>
+            <div class="about-feature"><svg class="ic" viewBox="0 0 512 512" aria-hidden="true"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg><span>Personal calificado</span></div>
+            <div class="about-feature"><svg class="ic" viewBox="0 0 512 512" aria-hidden="true"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg><span>Control de calidad</span></div>
+            <div class="about-feature"><svg class="ic" viewBox="0 0 512 512" aria-hidden="true"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg><span>Entrega puntual</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES ========== -->
+  <section class="section services" id="servicios">
+    <div class="container">
+      <div class="services-header reveal">
+        <span class="section-label">Nuestros Servicios</span>
+        <h2 class="section-title">Soluciones Integrales de Infraestructura</h2>
+        <p class="section-subtitle">Cubrimos todas las necesidades de tu instalación con un solo proveedor: desde la construcción y remodelación hasta el mantenimiento, logística y suministro industrial.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-icon"><svg class="ic" viewBox="0 0 384 512" aria-hidden="true"><path d="M48 0C21.5 0 0 21.5 0 48V464c0 26.5 21.5 48 48 48h96V432c0-26.5 21.5-48 48-48s48 21.5 48 48v80h96c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48H48zM64 240c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V240zm112-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V240c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H272c-8.8 0-16-7.2-16-16V240zM80 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V112zM272 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H272c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16z"/></svg></div>
+          <h3>Construcción y Adecuaciones</h3>
+          <p>Remodelaciones generales, adecuación de oficinas, bodegas y áreas técnicas, divisiones internas, gypsum, albañilería y acabados.</p>
+          <ul>
+            <li>Remodelaciones industriales y comerciales</li>
+            <li>Instalación de paredes y cielos rasos</li>
+            <li>Albañilería, repello y concreto</li>
+            <li>Demoliciones menores y desmontaje</li>
+          </ul>
+        </div>
+
+        <div class="service-card reveal reveal-delay-1">
+          <div class="service-icon"><svg class="ic" viewBox="0 0 576 512" aria-hidden="true"><path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c0 2.7-.2 5.4-.5 8.1V472c0 22.1-17.9 40-40 40H456c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1H416 392c-22.1 0-40-17.9-40-40V448 384c0-17.7-14.3-32-32-32H256c-17.7 0-32 14.3-32 32v64 24c0 22.1-17.9 40-40 40H160 128.1c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2H104c-22.1 0-40-17.9-40-40V360c0-.9 0-1.9 .1-2.8V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"/></svg></div>
+          <h3>Techos y Cubiertas</h3>
+          <p>Instalación, reemplazo y reparación de techos industriales, plafones, cielos rasos y sistemas de gypsum.</p>
+          <ul>
+            <li>Techos de gypsum y plafones</li>
+            <li>Reemplazo de techos industriales</li>
+            <li>Reparación de filtraciones</li>
+            <li>Mantenimiento preventivo de techos</li>
+          </ul>
+        </div>
+
+        <div class="service-card reveal reveal-delay-2">
+          <div class="service-icon"><svg class="ic" viewBox="0 0 576 512" aria-hidden="true"><path d="M264.5 5.2c14.9-6.9 32.1-6.9 47 0l218.6 101c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 149.8C37.4 145.8 32 137.3 32 128s5.4-17.9 13.9-21.8L264.5 5.2zM476.9 209.6l53.2 24.6c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 277.8C37.4 273.8 32 265.3 32 256s5.4-17.9 13.9-21.8l53.2-24.6 152 70.2c23.4 10.8 50.4 10.8 73.8 0l152-70.2zm-152 198.2l152-70.2 53.2 24.6c8.5 3.9 13.9 12.4 13.9 21.8s-5.4 17.9-13.9 21.8l-218.6 101c-14.9 6.9-32.1 6.9-47 0L45.9 405.8C37.4 401.8 32 393.3 32 384s5.4-17.9 13.9-21.8l53.2-24.6 152 70.2c23.4 10.8 50.4 10.8 73.8 0z"/></svg></div>
+          <h3>Pisos Epóxicos y Acabados</h3>
+          <p>Instalación de pisos epóxicos, recubrimientos industriales, preparación de superficies y demarcación de áreas.</p>
+          <ul>
+            <li>Pisos epóxicos y autonivelantes</li>
+            <li>Recubrimientos de alto tránsito</li>
+            <li>Reparación de concreto</li>
+            <li>Demarcación de áreas y pasillos</li>
+          </ul>
+        </div>
+
+        <div class="service-card reveal reveal-delay-3">
+          <div class="service-icon"><svg class="ic" viewBox="0 0 512 512" aria-hidden="true"><path d="M78.6 5C69.1-2.4 55.6-1.5 47 7L7 47c-8.5 8.5-9.4 22-2.1 31.6l80 104c4.5 5.9 11.6 9.4 19 9.4h54.1l109 109c-14.7 29-10 65.4 14.3 89.6l112 112c12.5 12.5 32.8 12.5 45.3 0l64-64c12.5-12.5 12.5-32.8 0-45.3l-112-112c-24.2-24.2-60.6-29-89.6-14.3l-109-109V104c0-7.5-3.5-14.5-9.4-19L78.6 5zM19.9 396.1C7.2 408.8 0 426.1 0 444.1C0 481.6 30.4 512 67.9 512c18 0 35.3-7.2 48-19.9L233.7 374.3c-7.8-20.9-9-43.6-3.6-65.1l-61.7-61.7L19.9 396.1zM512 144c0-10.5-1.1-20.7-3.2-30.5c-2.4-11.2-16.1-14.1-24.2-6l-63.9 63.9c-3 3-7.1 4.7-11.3 4.7H352c-8.8 0-16-7.2-16-16V102.6c0-4.2 1.7-8.3 4.7-11.3l63.9-63.9c8.1-8.1 5.2-21.8-6-24.2C388.7 1.1 378.5 0 368 0C288.5 0 224 64.5 224 144l0 .8 85.3 85.3c36-9.1 75.8 .5 104 28.7L429 274.5c49-23 83-72.8 83-130.5zM56 432a24 24 0 1 1 48 0 24 24 0 1 1 -48 0z"/></svg></div>
+          <h3>Mantenimiento de Instalaciones</h3>
+          <p>Mantenimiento preventivo y correctivo de infraestructura, pintura, reparaciones y atención de incidencias.</p>
+          <ul>
+            <li>Mantenimiento preventivo y correctivo</li>
+            <li>Pintura interior y exterior</li>
+            <li>Reparación de filtraciones y humedad</li>
+            <li>Inspección y levantamiento de necesidades</li>
+          </ul>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon"><svg class="ic" viewBox="0 0 512 512" aria-hidden="true"><path d="M192 96v12L96 96c-17.7 0-32 14.3-32 32s14.3 32 32 32l96-12 31-3.9 1-.1 1 .1 31 3.9 96 12c17.7 0 32-14.3 32-32s-14.3-32-32-32l-96 12V96c0-17.7-14.3-32-32-32s-32 14.3-32 32zM32 256c-17.7 0-32 14.3-32 32v64c0 17.7 14.3 32 32 32H132.1c20.2 29 53.9 48 91.9 48s71.7-19 91.9-48H352c17.7 0 32 14.3 32 32s14.3 32 32 32h64c17.7 0 32-14.3 32-32c0-88.4-71.6-160-160-160H320l-22.6-22.6c-6-6-14.1-9.4-22.6-9.4H256V180.2l-32-4-32 4V224H173.3c-8.5 0-16.6 3.4-22.6 9.4L128 256H32z"/></svg></div>
+          <h3>Plomería y Redes Básicas</h3>
+          <p>Reparación de fugas, cambio de tuberías, instalación de accesorios y mantenimiento de baños y áreas de servicio.</p>
+          <ul>
+            <li>Reparación de fugas de agua</li>
+            <li>Cambio de tuberías y válvulas</li>
+            <li>Instalación de sanitarios y drenajes</li>
+            <li>Mantenimiento de baños</li>
+          </ul>
+        </div>
+
+        <div class="service-card reveal reveal-delay-1">
+          <div class="service-icon"><svg class="ic" viewBox="0 0 448 512" aria-hidden="true"><path d="M349.4 44.6c5.9-13.7 1.5-29.7-10.6-38.5s-28.6-8-39.9 1.8l-256 224c-10 8.8-13.6 22.9-8.9 35.3S50.7 288 64 288H175.5L98.6 467.4c-5.9 13.7-1.5 29.7 10.6 38.5s28.6 8 39.9-1.8l256-224c10-8.8 13.6-22.9 8.9-35.3s-16.6-20.7-30-20.7H272.5L349.4 44.6z"/></svg></div>
+          <h3>Servicios Eléctricos y Electromecánicos</h3>
+          <p>Instalación de tomacorrientes, iluminación industrial, canalización y soporte electromecánico.</p>
+          <ul>
+            <li>Instalación y reubicación de tomacorrientes</li>
+            <li>Iluminación industrial y comercial</li>
+            <li>Canalización y organización de cableado</li>
+            <li>Mantenimiento básico de tableros</li>
+          </ul>
+        </div>
+
+        <div class="service-card reveal reveal-delay-2">
+          <div class="service-icon"><svg class="ic" viewBox="0 0 640 512" aria-hidden="true"><path d="M64 32C28.7 32 0 60.7 0 96V304v80 16c0 44.2 35.8 80 80 80c26.2 0 49.4-12.6 64-32c14.6 19.4 37.8 32 64 32c44.2 0 80-35.8 80-80c0-5.5-.6-10.8-1.6-16H416h33.6c-1 5.2-1.6 10.5-1.6 16c0 44.2 35.8 80 80 80s80-35.8 80-80c0-5.5-.6-10.8-1.6-16H608c17.7 0 32-14.3 32-32V288 272 261.7c0-9.2-3.2-18.2-9-25.3l-58.8-71.8c-10.6-13-26.5-20.5-43.3-20.5H480V96c0-35.3-28.7-64-64-64H64zM585 256H480V192h48.8c2.4 0 4.7 1.1 6.2 2.9L585 256zM528 368a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM176 400a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zM80 368a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg></div>
+          <h3>Fletes, Logística y Movilización</h3>
+          <p>Transporte de materiales, traslado de mobiliario y equipos, retiro de escombros y apoyo logístico.</p>
+          <ul>
+            <li>Transporte de materiales de construcción</li>
+            <li>Traslado de mobiliario y equipos</li>
+            <li>Retiro de escombros</li>
+            <li>Coordinación de transporte industrial</li>
+          </ul>
+        </div>
+
+        <div class="service-card reveal reveal-delay-3">
+          <div class="service-icon"><svg class="ic" viewBox="0 0 576 512" aria-hidden="true"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg></div>
+          <h3>Compras y Suministro Industrial</h3>
+          <p>Compra de equipos, materiales, herramientas y repuestos. Gestión de proveedores y coordinación de entregas.</p>
+          <ul>
+            <li>Compra de equipos industriales</li>
+            <li>Adquisición de materiales de construcción</li>
+            <li>Suministro de herramientas y consumibles</li>
+            <li>Gestión de cotizaciones y entregas</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== VALUE ========== -->
+  <section class="section value">
+    <div class="container">
+      <div class="value-header reveal">
+        <span class="section-label">Nuestra Propuesta de Valor</span>
+        <h2 class="section-title">¿Por Qué Elegir AP Servicios?</h2>
+        <p class="section-subtitle">Un solo proveedor para múltiples necesidades. Reducimos la coordinación entre contratistas y te ofrecemos soluciones integrales.</p>
+      </div>
+      <div class="value-grid">
+        <div class="value-card reveal"><div class="icon"><svg class="ic" viewBox="0 0 640 512" aria-hidden="true"><path d="M323.4 85.2l-96.8 78.4c-16.1 13-19.2 36.4-7 53.1c12.9 17.8 38 21.3 55.3 7.8l99.3-77.2c7-5.4 17-4.2 22.5 2.8s4.2 17-2.8 22.5l-20.9 16.2L512 316.8V128h-.7l-3.9-2.5L434.8 79c-15.3-9.8-33.2-15-51.4-15c-21.8 0-43 7.5-60 21.2zm22.8 124.4l-51.7 40.2C263 274.4 217.3 268 193.7 235.6c-22.2-30.5-16.6-73.1 12.7-96.8l83.2-67.3c-11.6-4.9-24.1-7.4-36.8-7.4C234 64 215.7 69.6 200 80l-72 48V352h28.2l91.4 83.4c19.6 17.9 49.9 16.5 67.8-3.1c5.5-6.1 9.2-13.2 11.1-20.6l17 15.6c19.5 17.9 49.9 16.6 67.8-2.9c4.5-4.9 7.8-10.6 9.9-16.5c19.4 13 45.8 10.3 62.1-7.5c17.9-19.5 16.6-49.9-2.9-67.8l-134.2-123zM16 128c-8.8 0-16 7.2-16 16V352c0 17.7 14.3 32 32 32H64c17.7 0 32-14.3 32-32V128H16zM48 320a16 16 0 1 1 0 32 16 16 0 1 1 0-32zM544 128V352c0 17.7 14.3 32 32 32h32c17.7 0 32-14.3 32-32V144c0-8.8-7.2-16-16-16H544zm32 208a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z"/></svg></div><h3>Un Solo Proveedor</h3><p>Integramos construcción, mantenimiento, suministro y logística en una sola solución, reduciendo la coordinación entre múltiples contratistas.</p></div>
+        <div class="value-card reveal reveal-delay-1"><div class="icon"><svg class="ic" viewBox="0 0 576 512" aria-hidden="true"><path d="M64 32C46.3 32 32 46.3 32 64V304v48 80c0 26.5 21.5 48 48 48H496c26.5 0 48-21.5 48-48V304 152.2c0-18.2-19.4-29.7-35.4-21.1L352 215.4V152.2c0-18.2-19.4-29.7-35.4-21.1L160 215.4V64c0-17.7-14.3-32-32-32H64z"/></svg></div><h3>Experiencia Industrial</h3><p>Comprendemos que los trabajos en plantas y centros operativos deben planificarse considerando continuidad operacional, seguridad y procedimientos del cliente.</p></div>
+        <div class="value-card reveal reveal-delay-2"><div class="icon"><svg class="ic" viewBox="0 0 512 512" aria-hidden="true"><path d="M142.9 142.9c62.2-62.2 162.7-62.5 225.3-1L327 183c-6.9 6.9-8.9 17.2-5.2 26.2s12.5 14.8 22.2 14.8H463.5c0 0 0 0 0 0H472c13.3 0 24-10.7 24-24V72c0-9.7-5.8-18.5-14.8-22.2s-19.3-1.7-26.2 5.2L413.4 96.6c-87.6-86.5-228.7-86.2-315.8 1C73.2 122 55.6 150.7 44.8 181.4c-5.9 16.7 2.9 34.9 19.5 40.8s34.9-2.9 40.8-19.5c7.7-21.8 20.2-42.3 37.8-59.8zM16 312v7.6 .7V440c0 9.7 5.8 18.5 14.8 22.2s19.3 1.7 26.2-5.2l41.6-41.6c87.6 86.5 228.7 86.2 315.8-1c24.4-24.4 42.1-53.1 52.9-83.7c5.9-16.7-2.9-34.9-19.5-40.8s-34.9 2.9-40.8 19.5c-7.7 21.8-20.2 42.3-37.8 59.8c-62.2 62.2-162.7 62.5-225.3 1L185 329c6.9-6.9 8.9-17.2 5.2-26.2s-12.5-14.8-22.2-14.8H48.4h-.7H40c-13.3 0-24 10.7-24 24z"/></svg></div><h3>Respuesta Flexible</h3><p>Atendemos proyectos programados, adecuaciones por fases, reparaciones puntuales y requerimientos urgentes de infraestructura.</p></div>
+        <div class="value-card reveal reveal-delay-3"><div class="icon"><svg class="ic" viewBox="0 0 384 512" aria-hidden="true"><path d="M192 0c-41.8 0-77.4 26.7-90.5 64H64C28.7 64 0 92.7 0 128V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V128c0-35.3-28.7-64-64-64H282.5C269.4 26.7 233.8 0 192 0zm0 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM305 273L177 401c-9.4 9.4-24.6 9.4-33.9 0L79 337c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L271 239c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg></div><h3>Coordinación Integral</h3><p>Desde la visita y levantamiento inicial hasta la compra de materiales, ejecución, limpieza y entrega del área.</p></div>
+        <div class="value-card reveal"><div class="icon"><svg class="ic" viewBox="0 0 512 512" aria-hidden="true"><path d="M256 0c4.6 0 9.2 1 13.4 2.9L457.7 82.8c22 9.3 38.4 31 38.3 57.2c-.5 99.2-41.3 280.7-213.6 363.2c-16.7 8-36.1 8-52.8 0C57.3 420.7 16.5 239.2 16 140c-.1-26.2 16.3-47.9 38.3-57.2L242.7 2.9C246.8 1 251.4 0 256 0zm0 66.8V444.8C394 378 431.1 230.1 432 141.4L256 66.8l0 0z"/></svg></div><h3>Calidad y Seguridad</h3><p>Destacamos el orden, la protección de las áreas de trabajo, el control de riesgos y la entrega conforme a las especificaciones acordadas.</p></div>
+        <div class="value-card reveal reveal-delay-1"><div class="icon"><svg class="ic" viewBox="0 0 512 512" aria-hidden="true"><path d="M256 0a256 256 0 1 1 0 512A256 256 0 1 1 256 0zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/></svg></div><h3>Compromiso con Plazos</h3><p>Planificación rigurosa y ejecución puntual para mantener tu operación activa y sin interrupciones innecesarias.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SECTORS ========== -->
+  <section class="section" id="sectores">
+    <div class="container">
+      <div class="services-header reveal">
+        <span class="section-label">Sectores Atendidos</span>
+        <h2 class="section-title">¿A Quién Servimos?</h2>
+        <p class="section-subtitle">Atendemos una amplia variedad de instalaciones con soluciones adaptadas a las exigencias de cada sector.</p>
+      </div>
+      <div class="sectors-grid">
+        <div class="sector-item reveal"><svg class="ic" viewBox="0 0 576 512" aria-hidden="true"><path d="M64 32C46.3 32 32 46.3 32 64V304v48 80c0 26.5 21.5 48 48 48H496c26.5 0 48-21.5 48-48V304 152.2c0-18.2-19.4-29.7-35.4-21.1L352 215.4V152.2c0-18.2-19.4-29.7-35.4-21.1L160 215.4V64c0-17.7-14.3-32-32-32H64z"/></svg><span>Plantas Industriales</span></div>
+        <div class="sector-item reveal reveal-delay-1"><svg class="ic" viewBox="0 0 640 512" aria-hidden="true"><path d="M308.5 135.3c7.1-6.3 9.9-16.2 6.2-25c-2.3-5.3-4.8-10.5-7.6-15.5L304 89.4c-3-5-6.3-9.9-9.8-14.6c-5.7-7.6-15.7-10.1-24.7-7.1l-28.2 9.3c-10.7-8.8-23-16-36.2-20.9L199 27.1c-1.9-9.3-9.1-16.7-18.5-17.8C173.9 8.4 167.2 8 160.4 8h-.7c-6.8 0-13.5 .4-20.1 1.2c-9.4 1.1-16.6 8.6-18.5 17.8L115 56.1c-13.3 5-25.5 12.1-36.2 20.9L50.5 67.8c-9-3-19-.5-24.7 7.1c-3.5 4.7-6.8 9.6-9.9 14.6l-3 5.3c-2.8 5-5.3 10.2-7.6 15.6c-3.7 8.7-.9 18.6 6.2 25l22.2 19.8C32.6 161.9 32 168.9 32 176s.6 14.1 1.7 20.9L11.5 216.7c-7.1 6.3-9.9 16.2-6.2 25c2.3 5.3 4.8 10.5 7.6 15.6l3 5.2c3 5.1 6.3 9.9 9.9 14.6c5.7 7.6 15.7 10.1 24.7 7.1l28.2-9.3c10.7 8.8 23 16 36.2 20.9l6.1 29.1c1.9 9.3 9.1 16.7 18.5 17.8c6.7 .8 13.5 1.2 20.4 1.2s13.7-.4 20.4-1.2c9.4-1.1 16.6-8.6 18.5-17.8l6.1-29.1c13.3-5 25.5-12.1 36.2-20.9l28.2 9.3c9 3 19 .5 24.7-7.1c3.5-4.7 6.8-9.5 9.8-14.6l3.1-5.4c2.8-5 5.3-10.2 7.6-15.5c3.7-8.7 .9-18.6-6.2-25l-22.2-19.8c1.1-6.8 1.7-13.8 1.7-20.9s-.6-14.1-1.7-20.9l22.2-19.8zM112 176a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zM504.7 500.5c6.3 7.1 16.2 9.9 25 6.2c5.3-2.3 10.5-4.8 15.5-7.6l5.4-3.1c5-3 9.9-6.3 14.6-9.8c7.6-5.7 10.1-15.7 7.1-24.7l-9.3-28.2c8.8-10.7 16-23 20.9-36.2l29.1-6.1c9.3-1.9 16.7-9.1 17.8-18.5c.8-6.7 1.2-13.5 1.2-20.4s-.4-13.7-1.2-20.4c-1.1-9.4-8.6-16.6-17.8-18.5L583.9 307c-5-13.3-12.1-25.5-20.9-36.2l9.3-28.2c3-9 .5-19-7.1-24.7c-4.7-3.5-9.6-6.8-14.6-9.9l-5.3-3c-5-2.8-10.2-5.3-15.6-7.6c-8.7-3.7-18.6-.9-25 6.2l-19.8 22.2c-6.8-1.1-13.8-1.7-20.9-1.7s-14.1 .6-20.9 1.7l-19.8-22.2c-6.3-7.1-16.2-9.9-25-6.2c-5.3 2.3-10.5 4.8-15.6 7.6l-5.2 3c-5.1 3-9.9 6.3-14.6 9.9c-7.6 5.7-10.1 15.7-7.1 24.7l9.3 28.2c-8.8 10.7-16 23-20.9 36.2L315.1 313c-9.3 1.9-16.7 9.1-17.8 18.5c-.8 6.7-1.2 13.5-1.2 20.4s.4 13.7 1.2 20.4c1.1 9.4 8.6 16.6 17.8 18.5l29.1 6.1c5 13.3 12.1 25.5 20.9 36.2l-9.3 28.2c-3 9-.5 19 7.1 24.7c4.7 3.5 9.5 6.8 14.6 9.8l5.4 3.1c5 2.8 10.2 5.3 15.5 7.6c8.7 3.7 18.6 .9 25-6.2l19.8-22.2c6.8 1.1 13.8 1.7 20.9 1.7s14.1-.6 20.9-1.7l19.8 22.2zM464 304a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg><span>Empresas de Manufactura</span></div>
+        <div class="sector-item reveal reveal-delay-2"><svg class="ic" viewBox="0 0 640 512" aria-hidden="true"><path d="M0 488V171.3c0-26.2 15.9-49.7 40.2-59.4L308.1 4.8c7.6-3.1 16.1-3.1 23.8 0L599.8 111.9c24.3 9.7 40.2 33.3 40.2 59.4V488c0 13.3-10.7 24-24 24H568c-13.3 0-24-10.7-24-24V224c0-17.7-14.3-32-32-32H128c-17.7 0-32 14.3-32 32V488c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24zm488 24l-336 0c-13.3 0-24-10.7-24-24V432H512l0 56c0 13.3-10.7 24-24 24zM128 400V336H512v64H128zm0-96V224H512l0 80H128z"/></svg><span>Centros de Distribución y Bodegas</span></div>
+        <div class="sector-item reveal reveal-delay-3"><svg class="ic" viewBox="0 0 512 512" aria-hidden="true"><path d="M184 48H328c4.4 0 8 3.6 8 8V96H176V56c0-4.4 3.6-8 8-8zm-56 8V96H64C28.7 96 0 124.7 0 160v96H192 320 512V160c0-35.3-28.7-64-64-64H384V56c0-30.9-25.1-56-56-56H184c-30.9 0-56 25.1-56 56zM512 288H320v32c0 17.7-14.3 32-32 32H224c-17.7 0-32-14.3-32-32V288H0V416c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V288z"/></svg><span>Oficinas Corporativas</span></div>
+        <div class="sector-item reveal"><svg class="ic" viewBox="0 0 576 512" aria-hidden="true"><path d="M547.6 103.8L490.3 13.1C485.2 5 476.1 0 466.4 0H109.6C99.9 0 90.8 5 85.7 13.1L28.3 103.8c-29.6 46.8-3.4 111.9 51.9 119.4c4 .5 8.1 .8 12.1 .8c26.1 0 49.3-11.4 65.2-29c15.9 17.6 39.1 29 65.2 29c26.1 0 49.3-11.4 65.2-29c15.9 17.6 39.1 29 65.2 29c26.2 0 49.3-11.4 65.2-29c16 17.6 39.1 29 65.2 29c4.1 0 8.1-.3 12.1-.8c55.5-7.4 81.8-72.5 52.1-119.4zM499.7 254.9l-.1 0c-5.3 .7-10.7 1.1-16.2 1.1c-12.4 0-24.3-1.9-35.4-5.3V384H128V250.6c-11.2 3.5-23.2 5.4-35.6 5.4c-5.5 0-11-.4-16.3-1.1l-.1 0c-4.1-.6-8.1-1.3-12-2.3V384v64c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V384 252.6c-4 1-8 1.8-12.3 2.3z"/></svg><span>Comercios y Locales</span></div>
+        <div class="sector-item reveal reveal-delay-1"><svg class="ic" viewBox="0 0 448 512" aria-hidden="true"><path d="M288 0H160 128C110.3 0 96 14.3 96 32s14.3 32 32 32V196.8c0 11.8-3.3 23.5-9.5 33.5L10.3 406.2C3.6 417.2 0 429.7 0 442.6C0 480.9 31.1 512 69.4 512H378.6c38.3 0 69.4-31.1 69.4-69.4c0-12.8-3.6-25.4-10.3-36.4L329.5 230.4c-6.2-10.1-9.5-21.7-9.5-33.5V64c17.7 0 32-14.3 32-32s-14.3-32-32-32H288zM192 196.8V64h64V196.8c0 23.7 6.6 46.9 19 67.1L309.5 320h-171L173 263.9c12.4-20.2 19-43.4 19-67.1z"/></svg><span>Laboratorios y Áreas Técnicas</span></div>
+        <div class="sector-item reveal reveal-delay-2"><svg class="ic" viewBox="0 0 512 512" aria-hidden="true"><path d="M243.4 2.6l-224 96c-14 6-21.8 21-18.7 35.8S16.8 160 32 160v8c0 13.3 10.7 24 24 24H456c13.3 0 24-10.7 24-24v-8c15.2 0 28.3-10.7 31.3-25.6s-4.8-29.9-18.7-35.8l-224-96c-8-3.4-17.2-3.4-25.2 0zM128 224H64V420.3c-.6 .3-1.2 .7-1.8 1.1l-48 32c-11.7 7.8-17 22.4-12.9 35.9S17.9 512 32 512H480c14.1 0 26.5-9.2 30.6-22.7s-1.1-28.1-12.9-35.9l-48-32c-.6-.4-1.2-.7-1.8-1.1V224H384V416H344V224H280V416H232V224H168V416H128V224zM256 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg><span>Instituciones y Edificios Administrativos</span></div>
+        <div class="sector-item reveal reveal-delay-3"><svg class="ic" viewBox="0 0 512 512" aria-hidden="true"><path d="M352 96c0 14.3-3.1 27.9-8.8 40.2L396 227.4c-23.7 25.3-54.2 44.1-88.5 53.6L256 192h0 0l-68 117.5c21.5 6.8 44.3 10.5 68.1 10.5c70.7 0 133.8-32.7 174.9-84c11.1-13.8 31.2-16 45-5s16 31.2 5 45C428.1 341.8 347 384 256 384c-35.4 0-69.4-6.4-100.7-18.1L98.7 463.7C94 471.8 87 478.4 78.6 482.6L23.2 510.3c-5 2.5-10.9 2.2-15.6-.7S0 501.5 0 496V440.6c0-8.4 2.2-16.7 6.5-24.1l60-103.7C53.7 301.6 41.8 289.3 31.2 276c-11.1-13.8-8.8-33.9 5-45s33.9-8.8 45 5c5.7 7.1 11.8 13.8 18.2 20.1l69.4-119.9c-5.6-12.2-8.8-25.8-8.8-40.2c0-53 43-96 96-96s96 43 96 96zm21 297.9c32.6-12.8 62.5-30.8 88.9-52.9l43.7 75.5c4.2 7.3 6.5 15.6 6.5 24.1V496c0 5.5-2.9 10.7-7.6 13.6s-10.6 3.2-15.6 .7l-55.4-27.7c-8.4-4.2-15.4-10.8-20.1-18.9L373 393.9zM256 128a32 32 0 1 0 0-64 32 32 0 1 0 0 64z"/></svg><span>Proyectos de Remodelación</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROCESS ========== -->
+  <section class="section process" id="proceso">
+    <div class="container">
+      <div class="process-header reveal">
+        <span class="section-label">Nuestro Proceso</span>
+        <h2 class="section-title">Así Trabajamos</h2>
+        <p class="section-subtitle">Un proceso claro y ordenado que garantiza resultados conforme a las especificaciones acordadas.</p>
+      </div>
+      <div class="process-steps">
+        <div class="process-step reveal"><div class="step-number">01</div><h4>Contacto y Levantamiento</h4><p>Escuchamos tu necesidad, agendamos una visita técnica y levantamos los requerimientos en sitio.</p></div>
+        <div class="process-step reveal reveal-delay-1"><div class="step-number">02</div><h4>Cotización y Planificación</h4><p>Elaboramos una propuesta detallada con materiales, tiempos, alcance y coordinación del proyecto.</p></div>
+        <div class="process-step reveal reveal-delay-2"><div class="step-number">03</div><h4>Ejecución y Supervisión</h4><p>Ejecutamos los trabajos con personal calificado, control de calidad y supervisión constante.</p></div>
+        <div class="process-step reveal reveal-delay-3"><div class="step-number">04</div><h4>Entrega y Limpieza</h4><p>Entregamos el área limpia, ordenada y conforme a los acuerdos, con garantía de satisfacción.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA ========== -->
+  <section class="cta-banner">
+    <div class="container">
+      <div class="reveal">
+        <h2>¿Listo para Transformar tus Instalaciones?</h2>
+        <p>Contáctanos hoy y descubre cómo podemos ayudarte a mantener, remodelar o adecuar tu espacio de trabajo.</p>
+      </div>
+      <div class="reveal reveal-delay-1">
+        <a href="#contacto" class="btn btn-primary"><svg class="ic" viewBox="0 0 512 512" aria-hidden="true"><path d="M347.1 24.6c7.7-18.6 28-28.5 47.4-23.2l88 24C499.9 30.2 512 46 512 64c0 247.4-200.6 448-448 448c-18 0-33.8-12.1-38.6-29.5l-24-88c-5.3-19.4 4.6-39.7 23.2-47.4l96-40c16.3-6.8 35.2-2.1 46.3 11.6L207.3 368c70.4-33.3 127.4-90.3 160.7-160.7L318.7 167c-13.7-11.2-18.4-30-11.6-46.3l40-96z"/></svg> Contáctanos Ahora</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="section" id="contacto">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <span class="section-label">Contacto</span>
+          <h2>Hablemos de tu Proyecto</h2>
+          <p>Estamos listos para atender tus requerimientos de construcción, mantenimiento, logística y suministro. Agenda una visita técnica o solicita una cotización sin compromiso.</p>
+
+          <div class="contact-detail">
+            <div class="icon-box"><svg class="ic" viewBox="0 0 384 512" aria-hidden="true"><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg></div>
+            <div class="text">
+              <h4>Ubicación</h4>
+              <p>Arraiján, Vacamonte<br>Panamá</p>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <div class="icon-box"><svg class="ic" viewBox="0 0 512 512" aria-hidden="true"><path d="M347.1 24.6c7.7-18.6 28-28.5 47.4-23.2l88 24C499.9 30.2 512 46 512 64c0 247.4-200.6 448-448 448c-18 0-33.8-12.1-38.6-29.5l-24-88c-5.3-19.4 4.6-39.7 23.2-47.4l96-40c16.3-6.8 35.2-2.1 46.3 11.6L207.3 368c70.4-33.3 127.4-90.3 160.7-160.7L318.7 167c-13.7-11.2-18.4-30-11.6-46.3l40-96z"/></svg></div>
+            <div class="text">
+              <h4>Teléfono / WhatsApp</h4>
+              <p><a href="tel:+50760060073">6006-0073</a> &nbsp;·&nbsp; <a href="https://wa.me/50760060073" target="_blank" rel="noopener">Escríbenos</a></p>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <div class="icon-box"><svg class="ic" viewBox="0 0 576 512" aria-hidden="true"><path d="M0 96l576 0c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96zm0 32V416c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V128H0zM64 405.3c0-29.5 23.9-53.3 53.3-53.3H234.7c29.5 0 53.3 23.9 53.3 53.3c0 5.9-4.8 10.7-10.7 10.7H74.7c-5.9 0-10.7-4.8-10.7-10.7zM176 192a64 64 0 1 1 0 128 64 64 0 1 1 0-128zm176 16c0-8.8 7.2-16 16-16H496c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16zm0 64c0-8.8 7.2-16 16-16H496c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16zm0 64c0-8.8 7.2-16 16-16H496c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16z"/></svg></div>
+            <div class="text">
+              <h4>RUC</h4>
+              <p>8-726-100 D.V 69</p>
+            </div>
+          </div>
+
+          <div class="contact-detail">
+            <div class="icon-box"><svg class="ic" viewBox="0 0 512 512" aria-hidden="true"><path d="M256 0a256 256 0 1 1 0 512A256 256 0 1 1 256 0zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/></svg></div>
+            <div class="text">
+              <h4>Horario de Atención</h4>
+              <p>Lunes a Viernes: 8:00 AM - 6:00 PM<br>Sábados: 8:00 AM - 12:00 PM</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form reveal reveal-delay-1">
+          <h3>Solicita una Cotización</h3>
+          <p>Completa el formulario y se abrirá WhatsApp con tu solicitud lista para enviar. Te respondemos a la brevedad.</p>
+
+          <form id="contactForm" action="https://wa.me/50760060073" method="GET">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="nombre">Nombre <span class="required">*</span></label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+              </div>
+              <div class="form-group">
+                <label for="empresa">Empresa</label>
+                <input type="text" id="empresa" name="empresa" placeholder="Nombre de tu empresa">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="telefono">Teléfono <span class="required">*</span></label>
+                <input type="tel" id="telefono" name="telefono" placeholder="6000-0000" required>
+              </div>
+              <div class="form-group">
+                <label for="correo">Correo Electrónico <span class="required">*</span></label>
+                <input type="email" id="correo" name="correo" placeholder="correo@empresa.com" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="servicio">Tipo de Servicio <span class="required">*</span></label>
+                <select id="servicio" name="servicio" required>
+                  <option value="" disabled selected>Seleccione un servicio</option>
+                  <option value="construccion">Construcción y Adecuaciones</option>
+                  <option value="techos">Techos y Cubiertas</option>
+                  <option value="pisos">Pisos Epóxicos y Acabados</option>
+                  <option value="mantenimiento">Mantenimiento de Instalaciones</option>
+                  <option value="plomeria">Plomería y Redes Básicas</option>
+                  <option value="electricos">Servicios Eléctricos</option>
+                  <option value="fletes">Fletes y Logística</option>
+                  <option value="suministro">Compras y Suministro Industrial</option>
+                  <option value="otro">Otro / Varios</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="ubicacion">Ubicación del Proyecto</label>
+                <input type="text" id="ubicacion" name="ubicacion" placeholder="Ciudad o área del proyecto">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="fecha">Fecha Estimada</label>
+              <input type="text" id="fecha" name="fecha" placeholder="Ej: Próximas 2 semanas">
+            </div>
+
+            <div class="form-group">
+              <label for="mensaje">Descripción de la Necesidad <span class="required">*</span></label>
+              <textarea id="mensaje" name="mensaje" placeholder="Describe tu proyecto o necesidad con el mayor detalle posible..." required></textarea>
+            </div>
+
+            <div class="form-footer">
+              <span class="note"><svg class="ic" viewBox="0 0 448 512" aria-hidden="true"><path d="M144 144v48H304V144c0-44.2-35.8-80-80-80s-80 35.8-80 80zM80 192V144C80 64.5 144.5 0 224 0s144 64.5 144 144v48h16c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V256c0-35.3 28.7-64 64-64H80z"/></svg> Tu información es confidencial.</span>
+              <button type="submit" class="btn btn-primary"><svg class="ic" viewBox="0 0 448 512" aria-hidden="true"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg> Enviar por WhatsApp</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#inicio" class="logo" aria-label="AP Servicios">
+            <img src="/logo-blanco.png" alt="AP Servicios" class="logo-img" width="1486" height="464">
+          </a>
+          <p>Proveedor integral de construcción, adecuación, mantenimiento, logística y suministro para instalaciones industriales, comerciales y corporativas en Panamá.</p>
+          <div class="footer-social">
+            <!-- Cuando AP tenga perfiles, se reponen aqui con el mismo formato:
+                 <a href="URL" target="_blank" rel="noopener" aria-label="Facebook"><svg class="ic" viewBox="0 0 320 512" aria-hidden="true"><path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/></svg></a>
+                 <a href="URL" target="_blank" rel="noopener" aria-label="Instagram"><svg class="ic" viewBox="0 0 448 512" aria-hidden="true"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a>
+                 <a href="URL" target="_blank" rel="noopener" aria-label="LinkedIn"><svg class="ic" viewBox="0 0 448 512" aria-hidden="true"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/></svg></a> -->
+            <a href="https://wa.me/50760060073" target="_blank" rel="noopener" aria-label="WhatsApp"><svg class="ic" viewBox="0 0 448 512" aria-hidden="true"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg></a>
+            <a href="tel:+50760060073" aria-label="Llamar"><svg class="ic" viewBox="0 0 512 512" aria-hidden="true"><path d="M347.1 24.6c7.7-18.6 28-28.5 47.4-23.2l88 24C499.9 30.2 512 46 512 64c0 247.4-200.6 448-448 448c-18 0-33.8-12.1-38.6-29.5l-24-88c-5.3-19.4 4.6-39.7 23.2-47.4l96-40c16.3-6.8 35.2-2.1 46.3 11.6L207.3 368c70.4-33.3 127.4-90.3 160.7-160.7L318.7 167c-13.7-11.2-18.4-30-11.6-46.3l40-96z"/></svg></a>
+          </div>
+        </div>
+
+        <div>
+          <h4>Servicios</h4>
+          <ul class="footer-links">
+            <li><a href="#servicios"><svg class="ic" viewBox="0 0 320 512" aria-hidden="true"><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg> Construcción y Remodelación</a></li>
+            <li><a href="#servicios"><svg class="ic" viewBox="0 0 320 512" aria-hidden="true"><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg> Techos y Gypsum</a></li>
+            <li><a href="#servicios"><svg class="ic" viewBox="0 0 320 512" aria-hidden="true"><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg> Pisos Epóxicos</a></li>
+            <li><a href="#servicios"><svg class="ic" viewBox="0 0 320 512" aria-hidden="true"><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg> Mantenimiento</a></li>
+            <li><a href="#servicios"><svg class="ic" viewBox="0 0 320 512" aria-hidden="true"><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg> Fletes y Logística</a></li>
+            <li><a href="#servicios"><svg class="ic" viewBox="0 0 320 512" aria-hidden="true"><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg> Suministro Industrial</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Empresa</h4>
+          <ul class="footer-links">
+            <li><a href="#nosotros"><svg class="ic" viewBox="0 0 320 512" aria-hidden="true"><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg> Quiénes Somos</a></li>
+            <li><a href="#sectores"><svg class="ic" viewBox="0 0 320 512" aria-hidden="true"><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg> Sectores Atendidos</a></li>
+            <li><a href="#proceso"><svg class="ic" viewBox="0 0 320 512" aria-hidden="true"><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg> Proceso de Trabajo</a></li>
+            <li><a href="#contacto"><svg class="ic" viewBox="0 0 320 512" aria-hidden="true"><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg> Contacto</a></li>
+            <li><a href="#contacto"><svg class="ic" viewBox="0 0 320 512" aria-hidden="true"><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg> Solicitar Cotización</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Contacto</h4>
+          <ul class="footer-contact">
+            <li><svg class="ic" viewBox="0 0 384 512" aria-hidden="true"><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg><span>Arraiján, Vacamonte, Panamá</span></li>
+            <li><svg class="ic" viewBox="0 0 512 512" aria-hidden="true"><path d="M347.1 24.6c7.7-18.6 28-28.5 47.4-23.2l88 24C499.9 30.2 512 46 512 64c0 247.4-200.6 448-448 448c-18 0-33.8-12.1-38.6-29.5l-24-88c-5.3-19.4 4.6-39.7 23.2-47.4l96-40c16.3-6.8 35.2-2.1 46.3 11.6L207.3 368c70.4-33.3 127.4-90.3 160.7-160.7L318.7 167c-13.7-11.2-18.4-30-11.6-46.3l40-96z"/></svg><span><a href="tel:+50760060073">6006-0073</a></span></li>
+            <li><svg class="ic" viewBox="0 0 576 512" aria-hidden="true"><path d="M0 96l576 0c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96zm0 32V416c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V128H0zM64 405.3c0-29.5 23.9-53.3 53.3-53.3H234.7c29.5 0 53.3 23.9 53.3 53.3c0 5.9-4.8 10.7-10.7 10.7H74.7c-5.9 0-10.7-4.8-10.7-10.7zM176 192a64 64 0 1 1 0 128 64 64 0 1 1 0-128zm176 16c0-8.8 7.2-16 16-16H496c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16zm0 64c0-8.8 7.2-16 16-16H496c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16zm0 64c0-8.8 7.2-16 16-16H496c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16z"/></svg><span>RUC: 8-726-100 D.V 69</span></li>
+            <li><svg class="ic" viewBox="0 0 512 512" aria-hidden="true"><path d="M256 0a256 256 0 1 1 0 512A256 256 0 1 1 256 0zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/></svg><span>Lun-Vie: 8:00 AM - 6:00 PM</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="anio">2026</span> A.P Servicios. Todos los derechos reservados.</p>
+        <p>Los datos que envías por este sitio se usan únicamente para responder tu solicitud.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="scroll-top" id="scrollTop" aria-label="Volver arriba"><svg class="ic" viewBox="0 0 384 512" aria-hidden="true"><path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"/></svg></button>
+
+  <script type="module" src="/src/js/main.js"></script>
+</body>
+</html>
