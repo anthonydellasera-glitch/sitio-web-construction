@@ -1,0 +1,21 @@
+# Dependencias
+node_modules/
+
+# Salida de compilación
+dist/
+
+# Registros
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editores y sistema
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Variables de entorno
+.env
+.env.local
